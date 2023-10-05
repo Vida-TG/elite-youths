@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Elite Youth Club</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+
+    <header class="sticky content">
+      <a href="#home" class="logo">
+        <span>The</span>
+        <span style="color: #5d0eb9; font-weight: bold">Elite</span>
+        <span>Youth Club</span>
+      </a>
+
+      
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#getStarted">Get started</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-button">
+          <a href="#">
+            <button class="btn-primary registerBtn" style="margin: 5px 8px; padding-top: 7px; padding-bottom: 7px;">Register</button>
+          </a>
+          <button style="padding: 10px 3px;" class="btn-secondary" onclick="darkMode()">
+            <i style="font-size: 18px;" class="fa fa-moon-o" id="toggleMode"></i>
+          </button>
+        <div class="bx bx-menu" id="menu-icon" style="padding-left: 15px"></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="home" id="home">
+        <div class="home-text">
+          <h1>
+            Massive
+            <span style="color: #5d0eb9; font-weight: bold">Empowerment</span>
+            For The
+            <span style="color: #5d0eb9; font-weight: bold">Youths</span>
+          </h1>
+          <p>
+            Transitioning Nigeria and Africa from into the tech hub of the world.
+          </p>
+          <ul class="home-button">
+            <li class="home-button-item">
+              <button class="btn-primary2 registerBtn" style="background-color: #5d0eb9;">Register</button>
+            </li>
+            <li class="home-button-item">
+              <a href="#getStarted"><button class="btn-secondary">Get started</button></a>
+            </li>
+          </ul>
+        </div>
+        <div class="home-img">
+          <img src="assets/images/hero.png" alt="hero" />
+        </div>
+      </section>
+
+      <section class="categories" id="courses">
+        <div class="space">
+          <div class="left-text">
+            <h2>Courses Available</h2>
+          </div>
+          <div class="main-btn">
+            <button class="btn-secondary">All Courses</button>
+          </div>
+        </div>
+        <div class="categories-content">
+          <div class="box">
+            <img src="assets/images/web-dev.png" alt="Web Development" />
+            <span><h3>Website Development</h3></span>
+          </div>
+          <div class="box">
+            <img src="assets/images/ui-ux.png" alt="UI UX Design" />
+            <h3>UI/UX Design</h3>
+          </div>
+          <div class="box">
+            <img src="assets/images/data-science.png" alt="Data Science" />
+            <h3>Data Science</h3>
+          </div>
+          <div class="box">
+            <img src="assets/images/digital-marketing.png" alt="Digital Marketing" />
+            <h3>Digital Marketing</h3>
+          </div>
+          <div class="box">
+            <img src="assets/images/cybersecurity.png" alt="Cyber Security" />
+            <h3>Cyber Security</h3>
+          </div>
+          <div class="box">
+            <img src="assets/images/business-analysis.png" alt="Business Analysis" />
+            <h3>Business Analysis</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses" id="about">
+        <div class="courses-content">
+          
+          <div class="row content">
+            <img
+              src="https://usabilitygeek.com/wp-content/uploads/2019/02/psychology-web-design-00-lead.jpg"
+            />
+            <div class="courses-text">
+              <h3>Goal</h3>
+              <p>Liberating outlet youths from poverty and all form of oppressions</p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <img
+              src="https://images.ctfassets.net/gg4ddi543f5b/7AHjFKPTt6B5ZwI8oI52rN/862db70ca26d7a72ce642932527e252d/web-design-workflow-blog.png"
+            />
+            <div class="courses-text">
+              <h3>Mission</h3>
+              <p>Turning out youths to world class skilled labour and attracting world class jobs</p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <img
+              src="https://awprojekt-art.pl/wp-content/uploads/2022/05/Web-Design-vs-Web-Development.jpg"
+            />
+            <div class="courses-text">
+              <h3>Vision</h3>
+              <p>Create a community of youths that will be influential in the development of Nigeria while attracting global tech jobs by 2025</p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <img
+              src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/07/Best_web_design_tutorials_on_the_internet_jpg_xUsjt6Kw-700x410.jpg?auto=format&q=60&fit=max&w=930"
+            />
+            <div class="courses-text">
+              <h3>Concept driver</h3>
+              <p>Transitioning Nigeria and Africa from being notorious for being fraudulent into the tech hub of the world</p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <img
+              src="https://softwareauggest-blogimages.s3.ca-central-1.amazonaws.com/blog/wp-content/uploads/2019/12/12193533/11-Best-Web-Design-Companies-in-India.png"
+            />
+            <div class="courses-text">
+              <h3>Modus operandi</h3>
+              <p>Position our youths with income opportunities by having them work for several companies on freelance basis</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimony">
+        
+        <div class="wrapper">
+          <div class="box">
+            <h3>Core value<hr /></h3>
+            
+            <p>P: <span style="font-size: 16px;">Protect our youths from all oppressions</span></p>
+            <p>O: <span style="font-size: 16px;">give them the Opportunities to shine</span></p> 
+            <p>S: <span style="font-size: 16px;">Secure a bright future for out members</span></p>
+            <p>T: <span style="font-size: 16px;">Transition our youths into world class skilled tech entrepreneurs</span></p>
+          </div>
+          <div class="box">
+            <h3>Rules<hr /></h3>
+            
+            <p style="font-size: 14px;">- Members must be civil and be law abiding</p>
+            <p style="font-size: 14px;">- Take training and development seriously</p> 
+            <p style="font-size: 14px;">- Participate in training if you must qualify for grants or loans</p>
+            <p style="font-size: 14px;">- Members must pay their dues unless they are willing to forfeit all other benefits of being a member apart from learning a skill</p>
+            <p style="font-size: 14px;">- Yo gain access to all skills and other benefits you must be consistent with your dues</p>
+            <p style="font-size: 14px;">- Must be active and be a good community member</p>
+          </div>
+          <div class="box">
+            <h3>Membership Benefits <hr /></h3>
+            
+            <p style="font-size: 16px;">Opportunities to learn high income skills</p>
+            <p style="font-size: 16px;">Access to financial opportunities </p> 
+            <p style="font-size: 16px;">Protection from oppressions</p>
+            <p style="font-size: 16px;">Job opportunities</p>
+            <p style="font-size: 16px;">Access to the large community of youths etc</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature">
+        <h3>
+          The goal of The Elite Youth Club is to foster massive tech and business empowerment for the youths, build a community of successful youths while protecting them from all form of oppressions.
+          This group will go a long way to ensure the security of our member, we will be there for them when they need any form of help from health, legal, tech skills etc
+        </h3>
+      </section>
+
+      <section class="newsletter" id="getStarted">
+        <div class="newsletter-text">
+          <h3>Registration</h3><br/>
+          <p>
+            To become a member you are to pay a fee of N6000, N5000 for membership fee and N1000 for monthly due.
+            <br/>
+            This 1k monthly due is kept in a trustee that uses it to fight for our youths, gives them grant and loans for businesses, pay hospital bills and support them in every other form necessary.</p>
+          </p>
+          <button class="btn-primary registerBtn">Register</button>
+        </div>
+      </section>
+    </main>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+          <span class="close" id="closeBtn">&times;</span>
+          <h2>Fill your details below</h2>
+          <form id="registrationForm">
+              <label for="program">Choose a Program</label>
+              <select id="program" name="program">
+                  <option value="Data Analysis">Data Analysis</option>
+                  <option value="Data Science">Data Science</option>
+                  <option value="Frontend Web Development">Frontend Web Development</option>
+                  <option value="UI/UX">UI/UX</option>
+              </select>
+
+              <input type="text" id="fullName" placeholder="Full Name" name="fullName" required>
+
+              <input type="email" id="email" placeholder="Email Address" name="email" required>
+
+              <input type="tel" id="phone" placeholder="Phone Number" name="phone" required>
+
+              <label>Gender</label>
+              <span>
+                <label for="male" class="gender">Male</label>
+                <input type="radio" id="male" class="gender" name="gender" value="Male">
+                <label for="female" class="gender">Female</label>
+                <input type="radio" id="female" class="gender" name="gender" value="Female">
+              </span>
+
+              <input type="text" id="school" placeholder="School" name="school">
+
+              <input type="text" id="state" placeholder="State" name="state">
+
+              <input type="text" id="location" placeholder="Location" name="location">
+
+              <label for="hearAboutUs">How did you hear about us?</label>
+              <input type="text" id="hearAboutUs" name="hearAboutUs">
+
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
