@@ -18,9 +18,9 @@
 	--clr-bg: #ffffff;
 	--clr-text: #22100d;
 	--clr-second-text: #685f78;
-	--big-font: 3.8rem;
-	--h2-font: 2.6rem;
-	--p-font: 1.1rem;
+	--big-font: 3.0rem;
+	--h2-font: 2.0rem;
+	--p-font: 0.9rem;
 	/* color-scheme: light dark; */
 }
 
@@ -386,15 +386,14 @@ section{
 }
 
 
-/* start course style */
-.courses{
+.about{
 	background-color: rgba(120, 120, 120, .08);
 	background-size: cover;
 	background-position: center;
 	padding: 30px;
 }
 
-.courses-content{
+.about-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	gap: 2rem;
@@ -423,17 +422,17 @@ section{
 	border-radius: 15px 15px 0px 0px;
 }
 
-.courses-text{
+.about-text{
 	padding: 30px 20px;
 }
 
-.courses-text h5{
+.about-text h5{
 	color: var(--clr-primary);
 	font-size: 18px;
 	font-weight: 700;
 }
 
-.courses-text h3{
+.about-text h3{
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 34px;
@@ -441,11 +440,11 @@ section{
 	transition: all .40s ease;
 }
 
-.courses-text h3:hover{
+.about-text h3:hover{
 	color: var(--clr-primary);
 }
 
-.courses-text h6{
+.about-text h6{
 	color: #696969;
 	font-size: var(--p-font);
 	font-weight: 400;
@@ -475,7 +474,7 @@ section{
 }
 
 
-.testimony {
+.core {
 	position: relative;
 	width: 100%;
 	padding: 100px 7%;
@@ -508,12 +507,10 @@ section{
 
 .wrapper .box i.quote{
 	font-size: 20px;
-	/* color: #0a24eb; */
 }
 
 .wrapper .box i.quote:hover{
 	font-size: 20px;
-	/* color: white; */
 }
 
 .wrapper .box .content{
@@ -563,27 +560,26 @@ hr {
 }
 
 
-/* start newsletter style */
-.newsletter{
+.get-started{
 	position: relative;
 	height: 60vh;
 	width: 100%;
 	text-align: center;
 }
 
-.newsletter-text h1{
+.get-started-text h1{
 	font-size: var(--big-font);
 	margin: 15px 0 15px;
 }
 
-.newsletter-text h6{
+.get-started-text h6{
 	color: var(--clr-primary);
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 2px;
 }
 
-.newsletter-text p{
+.get-started-text p{
 	color: var(--clr-second-text);
 	font-size: var(--p-font);
 	font-weight: 500;
@@ -766,9 +762,9 @@ footer {
 
 @media (max-width: 1050px){
 	:root{
-	  --big-font: 3.2rem;
-	  --h2-font: 2rem;
-	  --p-font: 1rem;
+	  --big-font: 2.4rem;
+	  --h2-font: 1.4rem;
+	  --p-font: 0.6rem;
 	  transition: .1s;
 	}
 	.home{
